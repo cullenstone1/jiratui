@@ -4,6 +4,8 @@ This document guides you through some of the most important aspects of using the
 configure the tool or more details on how the tool works you can refer to the official docs at
 [https://jiratui.readthedocs.io/en/latest/index.html](https://jiratui.readthedocs.io/en/latest/index.html)
 
+Press `/` to search this help. Press `enter` to jump to the next match and `escape` to close the search.
+
 # Navigating the UI
 
 Starting with `v1.13.0`, JiraTUI allows you to choose the style of keybindings you want to use. You can do so by setting
@@ -22,6 +24,9 @@ context.
 | `^q`         | Closes the app                                         | Main Screen                                                             |
 | `q`          | Closes the app                                         | Main Screen                                                             |
 | `f1`         | Open the help                                          | Main Screen                                                             |
+| `/`          | Search the help                                        | Help Screen                                                             |
+| `enter`      | Go to the next match when searching the help           | Help Screen                                                             |
+| `escape`     | Close the help search, then the help                   | Help Screen                                                             |
 | `f2`         | View details of your Jira server                       | Main Screen                                                             |
 | `f3`         | View the configuration file                            | Main Screen                                                             |
 | `f4`         | Shows the recent history                               | Main Screen                                                             |
@@ -102,6 +107,9 @@ context.
 | `tab`                   | Focus next element                                       |         |
 | `^q`                    | Closes the app                                           |         |
 | `f1`, `^?`, `^+shift+\` | Open the help                                            |         |
+| `/`                     | Search the help                                          | Help Screen |
+| `enter`                 | Go to the next match when searching the help             | Help Screen |
+| `escape`                | Close the help search, then the help                     | Help Screen |
 | `f2`                    | View details of your Jira server                         |         |
 | `f3`                    | View the configuration file                              |         |
 | `p`                     | Focuses the project dropdown                             |         |

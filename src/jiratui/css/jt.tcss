@@ -266,6 +266,22 @@ HelpScreen > MarkdownViewer {
     margin-top: 1;
 }
 
+HelpScreen.-searching > MarkdownViewer {
+    height: 1fr;
+}
+
+HelpScreen > #help-search {
+    width: 80%;
+    margin-bottom: 1;
+    border: round $accent;
+    background: $background;
+    border-subtitle-align: right;
+}
+
+HelpScreen .-search-match {
+    background: $accent 40%;
+}
+
 CustomTitle {
     layout: vertical;
     height: auto;

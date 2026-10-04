@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- Add search to the help screen. Pressing `/` in the help opens a search input that highlights and scrolls to the
+matching text; `enter` jumps to the next match and `escape` closes the search. By [@cullenstone1](https://github.com/cullenstone1)
+
 ## [1.16.0] 2026-10-01
 
 ### Added

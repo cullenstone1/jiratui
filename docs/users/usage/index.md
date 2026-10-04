@@ -213,6 +213,9 @@ context.
 | `^q`         | Closes the app                                                              | Main Screen                                                             |
 | `q`          | Closes the app                                                              | Main Screen                                                             |
 | `f1`         | Open the help                                                               | Main Screen                                                             |
+| `/`          | Search the help                                                             | Help Screen                                                             |
+| `enter`      | Go to the next match when searching the help                                | Help Screen                                                             |
+| `escape`     | Close the help search, then the help                                        | Help Screen                                                             |
 | `f2`         | View details of your Jira server                                            | Main Screen                                                             |
 | `f3`         | View the configuration file                                                 | Main Screen                                                             |
 | `f4`         | Shows the recent history                                                    | Main Screen                                                             |
@@ -293,6 +296,9 @@ context.
 | `tab`               | Focus next element                                       |         |
 | `^q`                | Closes the app                                           |         |
 | `f1`, `^?`, `^+shift+\` | Open the help                                            |         |
+| `/`                     | Search the help                                          | Help Screen |
+| `enter`                 | Go to the next match when searching the help             | Help Screen |
+| `escape`                | Close the help search, then the help                     | Help Screen |
 | `f2`                | View details of your Jira server                         |         |
 | `f3`                | View the configuration file                              |         |
 | `p`                 | Focuses the project dropdown                             |         |
